@@ -15,8 +15,9 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 value = 1
-while True:
-    print(value + "\n")
+while value < 10000:
+    print(value)
+    print("\n")
     value += 1
     print("""
 # Welcome to Streamlit!
